@@ -32,7 +32,9 @@ graph TD
     end
 
 ```
+> **Diagrama de Integração Completa:** Demonstra a comunicação entre o front-end (React), o back-end (Python), e a API (Flask ou FastAPI), incluindo uma conexão opcional com um banco de dados para armazenamento de históricos de varredura.
 
+---
 ## Front-end 
 
 ```mermaid
@@ -59,6 +61,10 @@ graph TD
 
 ```
 
+> **Diagrama Front-End:** Mostra a interface em React, incluindo os componentes essenciais para interação com o usuário e visualização de relatórios.
+
+---
+
 ##  Back-end
 ```mermaid
 graph TD
@@ -84,11 +90,16 @@ graph TD
 
 ```
 
+> **Diagrama Back-End:** Mostra a estrutura do back-end em Python, com módulos dedicados para verificar vulnerabilidades específicas e bibliotecas associadas (como requests e nmap).
+
+---
+
 
 
 ### 1. Escopo do Projeto
-Objetivo Principal: Criar uma ferramenta que verifica aplicações web em busca de vulnerabilidades comuns, como XSS, SQL Injection, diretórios expostos e configuração de headers de segurança.
-Funcionalidades Extras: Possibilidade de varrer infraestrutura em busca de portas abertas, serviços vulneráveis, e coleta de informações (reconhecimento passivo).
+**Objetivo Principal:** Criar uma ferramenta que verifica aplicações web em busca de vulnerabilidades comuns, como XSS, SQL Injection, diretórios expostos e configuração de headers de segurança.
+
+**Funcionalidades Extras:** Possibilidade de varrer infraestrutura em busca de portas abertas, serviços vulneráveis, e coleta de informações (reconhecimento passivo).
 
 ### 2. Arquitetura do Projeto
 - Back-end:
